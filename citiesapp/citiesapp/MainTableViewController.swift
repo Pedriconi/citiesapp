@@ -22,7 +22,8 @@ class MainTableViewController: UITableViewController {
         self.httpCall(method: httpMethod, url: url , task:  task)
        
         print(self.arrayKey.count)
-    }// didLoadFinish
+    }
+
 
     override func numberOfSections(in tableView: UITableView) -> Int {
         return 1
@@ -58,7 +59,7 @@ class MainTableViewController: UITableViewController {
         let group = DispatchGroup() // to async
         
         let postData = NSData(data: "{}".data(using: String.Encoding.utf8)!)
-        var request = NSMutableURLRequest(url: NSURL(string: url + task)! as URL, cachePolicy: .useProtocolCachePolicy, timeoutInterval: 5.0)
+        var request = NSMutableURLRequest(url: NSURL(string: url + task)! as URL, cachePolicy: .useProtocolCachePolicy, timeoutInterval: 10.0)
         request.httpMethod = method
         request.httpBody = postData as Data
         
@@ -100,5 +101,8 @@ class MainTableViewController: UITableViewController {
         dataTask.resume()
     } // finish function
     
+    
+    
 }
+
 

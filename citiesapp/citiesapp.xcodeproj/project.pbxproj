@@ -13,6 +13,8 @@
 		6CCD3C402287AAC500C41789 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CCD3C3F2287AAC500C41789 /* Assets.xcassets */; };
 		6CCD3C432287AAC500C41789 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CCD3C412287AAC500C41789 /* LaunchScreen.storyboard */; };
 		6CCD3C4B22886E7500C41789 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CCD3C4A22886E7500C41789 /* MainViewController.swift */; };
+		6CCD3C4D22899E9E00C41789 /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CCD3C4C22899E9D00C41789 /* City.swift */; };
+		6CCD3C4F228A295D00C41789 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CCD3C4E228A295D00C41789 /* MapViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		6CCD3C422287AAC500C41789 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6CCD3C442287AAC500C41789 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6CCD3C4A22886E7500C41789 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		6CCD3C4C22899E9D00C41789 /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
+		6CCD3C4E228A295D00C41789 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				6CCD3C382287AAC200C41789 /* AppDelegate.swift */,
 				6CCD3C3A2287AAC200C41789 /* MainTableViewController.swift */,
 				6CCD3C4A22886E7500C41789 /* MainViewController.swift */,
+				6CCD3C4E228A295D00C41789 /* MapViewController.swift */,
+				6CCD3C4C22899E9D00C41789 /* City.swift */,
 				6CCD3C3C2287AAC200C41789 /* Main.storyboard */,
 				6CCD3C3F2287AAC500C41789 /* Assets.xcassets */,
 				6CCD3C412287AAC500C41789 /* LaunchScreen.storyboard */,
@@ -140,6 +146,8 @@
 			files = (
 				6CCD3C4B22886E7500C41789 /* MainViewController.swift in Sources */,
 				6CCD3C3B2287AAC200C41789 /* MainTableViewController.swift in Sources */,
+				6CCD3C4D22899E9E00C41789 /* City.swift in Sources */,
+				6CCD3C4F228A295D00C41789 /* MapViewController.swift in Sources */,
 				6CCD3C392287AAC200C41789 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,6 +295,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6XDYL82C53;
 				INFOPLIST_FILE = citiesapp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -304,6 +313,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6XDYL82C53;
 				INFOPLIST_FILE = citiesapp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
